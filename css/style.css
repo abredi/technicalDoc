@@ -1,0 +1,16 @@
+.container {
+    
+}
+
+#main-doc, #navbar {
+    position: fixed;
+}
+main#main-doc {
+    left: 100vh;
+}
+
+@media (width >= 300px) {
+    #navbar {
+        width: 20%;
+    }
+}
